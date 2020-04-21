@@ -22,6 +22,6 @@ var sconto_giovani = ( prezzo_biglietto - ( prezzo_biglietto ) *0.2 );
 
 // prezzo biglietto over 65
 var sconto_anziani = ( prezzo_biglietto - ( prezzo_biglietto ) *0.4 );
-    if ( eta_passeggero < 65 ) {
+    if ( eta_passeggero > 65 ) {
         console.log( 'il prezzo del biglieto del passeggere sarebbe stato di €:' + prezzo_biglietto + '.' + 'Ma con lo sconto è di €:' + sconto_anziani );
 }
